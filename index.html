@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benslider</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/benslider.css">
+</head>
+<body>
+    <h1>Welcome to Benslider</h1>
+    <div class="benslider-container">
+        <ul class="benslider-wrapper">
+            <li class="benslider-slide"></li>
+            <li class="benslider-slide"></li>
+            <li class="benslider-slide"></li>
+            <li class="benslider-slide"></li>
+            <li class="benslider-slide"></li>
+        </ul>
+    </div>
+    <!-- Include library -->
+    <script src="js/benslider.js"></script>
+    <script>
+        var benslider = new Benslider('.benslider-container');
+    </script>
+</body>
+</html>
