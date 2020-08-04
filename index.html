@@ -21,7 +21,11 @@
     <!-- Include library -->
     <script src="js/benslider.js"></script>
     <script>
-        var benslider = new Benslider('.benslider-container');
+        let options = {
+            // Setting option list
+            'foo': 'var'
+        };
+        var benslider = new Benslider('.benslider-container', options);
     </script>
 </body>
 </html>
