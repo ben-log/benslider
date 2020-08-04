@@ -16,9 +16,9 @@
     typeof define === 'function' && define.amd ? define(factory) :
     (global = global || self, global.Benslider = factory());
 }(this, (function () { 'use strict';
-    var Benslider = (function () {
+    const Benslider = (function () {
         function Benslider() {
-            var benslider = this;
+            const benslider = this;
     
             // Init
             benslider.init();
